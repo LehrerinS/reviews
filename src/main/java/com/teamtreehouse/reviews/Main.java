@@ -11,7 +11,7 @@ public class Main {
             CSVPrinter printer = new CSVPrinter(System.out, CSVFormat.EXCEL);
             printer.printRecord("Craig", "Dennis", 5, "Loved it!");
             printer.printRecord("Chris", "Ramacciotti", 4, "Pretty good, can be better.");
-        } catch (IOException e) {
+        } catch (IOException e) {  
             e.printStackTrace();
         }
     }
